@@ -1,18 +1,19 @@
+
 {
   "domain": "smartaromadiffuser",
   "name": "SmartAromaDiffuser",
-  "version": "1.0.0",
+  "codeowners": [
+    "@menjan"
+  ],
+  "config_flow": true,
   "dependencies": [
     "bluetooth",
     "bluetooth_adapters"
   ],
-  "config_flow": true,
+  "documentation": "https://github.com/menjan/SmartAromaDiffuser#readme",
   "integration_type": "device",
   "iot_class": "local_push",
+  "issue_tracker": "https://github.com/menjan/SmartAromaDiffuser/issues",
   "requirements": [],
-  "codeowners": [
-    "@menjan"
-  ],
-  "documentation": "https://github.com/menjan/SmartAromaDiffuser#readme",
-  "issue_tracker": "https://github.com/menjan/SmartAromaDiffuser/issues"
+  "version": "1.0.0"
 }
