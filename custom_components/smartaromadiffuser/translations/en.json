@@ -1,0 +1,28 @@
+{
+  "title": "SmartAromaDiffuser",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect an A326 diffuser",
+        "data": {
+          "address": "Bluetooth address"
+        }
+      }
+    },
+    "error": {
+      "invalid_address": "Invalid Bluetooth address"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Connection settings",
+        "description": "How long the Bluetooth link stays open is the main factor for responsiveness. While it is open, the official app cannot connect.",
+        "data": {
+          "idle_timeout": "Keep connection (seconds, 0 = permanent)",
+          "poll_interval": "Refresh state automatically (minutes, 0 = off)"
+        }
+      }
+    }
+  }
+}

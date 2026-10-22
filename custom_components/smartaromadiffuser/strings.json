@@ -1,0 +1,28 @@
+{
+  "title": "SmartAromaDiffuser",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Verbind een A326-geurverspreider",
+        "data": {
+          "address": "Bluetooth-adres"
+        }
+      }
+    },
+    "error": {
+      "invalid_address": "Voer een geldig Bluetooth-adres in"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Verbindingsinstellingen",
+        "description": "Hoe lang de Bluetooth-verbinding open blijft is de belangrijkste factor voor reactiesnelheid. Zolang de verbinding open is, kan de officiële app niet verbinden.",
+        "data": {
+          "idle_timeout": "Verbinding vasthouden (seconden, 0 = permanent)",
+          "poll_interval": "Status automatisch verversen (minuten, 0 = uit)"
+        }
+      }
+    }
+  }
+}

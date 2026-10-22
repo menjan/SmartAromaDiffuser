@@ -1,0 +1,18 @@
+{
+  "domain": "smartaromadiffuser",
+  "name": "SmartAromaDiffuser",
+  "version": "1.0.0",
+  "dependencies": [
+    "bluetooth",
+    "bluetooth_adapters"
+  ],
+  "config_flow": true,
+  "integration_type": "device",
+  "iot_class": "local_push",
+  "requirements": [],
+  "codeowners": [
+    "@mennojansen84"
+  ],
+  "documentation": "https://github.com/mennojansen84/SmartAromaDiffuser#readme",
+  "issue_tracker": "https://github.com/mennojansen84/SmartAromaDiffuser/issues"
+}

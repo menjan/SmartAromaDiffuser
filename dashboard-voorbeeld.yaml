@@ -1,0 +1,60 @@
+views:
+  - title: SmartAromaDiffuser
+    path: smart-aroma-diffuser
+    icon: mdi:air-humidifier
+    cards:
+      - type: markdown
+        content: |
+          ## SmartAromaDiffuser · Woonkamer
+          Gebruik hieronder aparte **AAN**- en **UIT**-knoppen en pas daarna eventueel de intensiteit aan.
+      - type: grid
+        columns: 2
+        square: false
+        cards:
+          - type: button
+            name: Hoofdschakelaar AAN
+            icon: mdi:air-humidifier
+            show_state: false
+            tap_action:
+              action: perform-action
+              perform_action: switch.turn_on
+              target:
+                entity_id: switch.a326_geurverspreider
+          - type: button
+            name: Hoofdschakelaar UIT
+            icon: mdi:power-off
+            show_state: false
+            tap_action:
+              action: perform-action
+              perform_action: switch.turn_off
+              target:
+                entity_id: switch.a326_geurverspreider
+          - type: button
+            name: Lamp AAN
+            icon: mdi:lightbulb-on
+            show_state: false
+            tap_action:
+              action: perform-action
+              perform_action: light.turn_on
+              target:
+                entity_id: light.a326_ingebouwde_lamp
+          - type: button
+            name: Lamp UIT
+            icon: mdi:lightbulb-off
+            show_state: false
+            tap_action:
+              action: perform-action
+              perform_action: light.turn_off
+              target:
+                entity_id: light.a326_ingebouwde_lamp
+      - type: entities
+        title: Instellingen
+        entities:
+          - entity: number.a326_geurintensiteit
+            name: Geurintensiteit (1–5)
+          - entity: sensor.a326_bluetooth_signaal
+            name: Bluetooth-signaal
+          - entity: button.a326_status_vernieuwen
+            name: Status vernieuwen
+          - entity: button.a326_verbinding_verbreken
+            name: Verbinding verbreken (voor de officiële app)
