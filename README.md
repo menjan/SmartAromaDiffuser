@@ -2,6 +2,8 @@
 
 [**🇳🇱 Nederlandse installatiehandleiding**](docs/INSTALLATIE_NL.md) · [**English installation guide**](docs/INSTALLATION_EN.md) · [**Migrating from an older integration**](MIGRATION.md)
 
+[![Open in HACS](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=mennojansen84&repository=SmartAromaDiffuser&category=integration)
+
 Community-maintained custom integration for **Home Assistant**, providing local **Bluetooth Low Energy (BLE)** control of a tested **A326-family aroma diffuser**. No cloud account needed for control. This project is unaffiliated with the device manufacturer. Not all diffusers marketed as A326 or supplied with the same app are guaranteed to share this protocol.
 
 ## Features
