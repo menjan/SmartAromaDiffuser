@@ -1,5 +1,4 @@
-![SmartAromaDiffuser – A328 Bluetooth Aroma Diffuser for Home Assistant](assets/SmartAromaDiffuser_A328_header.webp)
-
+![SmartAromaDiffuser – A328 Bluetooth Aroma Diffuser for Home Assistant](SmartAromaDiffuser_A328_header.webp)
 # SmartAromaDiffuser
 
 [**🇳🇱 Nederlandse installatiehandleiding**](docs/INSTALLATIE_NL.md) · [**English installation guide**](docs/INSTALLATION_EN.md) · [**Migrating from an older integration**](MIGRATION.md)
