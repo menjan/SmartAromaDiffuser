@@ -2,11 +2,11 @@
 
 ## Repository aangemaakt
 
-De openbare repository bestaat al: **[mennojansen84/SmartAromaDiffuser](https://github.com/mennojansen84/SmartAromaDiffuser)**. Alle documentatie- en codeowner-verwijzingen zijn ingevuld. Voeg bij de eerste upload geen extra bovenliggende map toe.
+De openbare repository bestaat al: **[menjan/SmartAromaDiffuser](https://github.com/menjan/SmartAromaDiffuser)**. Alle documentatie- en codeowner-verwijzingen zijn ingevuld. Voeg bij de eerste upload geen extra bovenliggende map toe.
 
 ## 1. Controleer GitHub-instellingen
 
-1. Open de [repository](https://github.com/mennojansen84/SmartAromaDiffuser).
+1. Open de [repository](https://github.com/menjan/SmartAromaDiffuser).
 2. Controleer onder **Settings → General → Features** of **Issues** aanstaat.
 3. Als er nog geen code in de repository staat, ga direct door met stap 2.
 
@@ -29,7 +29,7 @@ De openbare repository bestaat al: **[mennojansen84/SmartAromaDiffuser](https://
 
 ## 4. Test de publieke installatie
 
-1. In HA 2026.10 of ouder: HACS → Custom repositories → plak de URL `https://github.com/mennojansen84/SmartAromaDiffuser` en kies **Integration**.
+1. In HA 2026.10 of ouder: HACS → Custom repositories → plak de URL `https://github.com/menjan/SmartAromaDiffuser` en kies **Integration**.
 2. Vanaf HA 2026.11: gebruik Instellingen → Marketplace → aangepaste repository (GitHub-verbinding kan nodig zijn). Installeer v1.0.0, herstart indien gevraagd en voeg SmartAromaDiffuser toe via Apparaten en diensten.
 3. Test lamp, hoofdschakelaar en pas na het vastleggen van oude schema's de intensiteit.
 4. Gebruik bij bestaande installaties eerst de aparte [migratiehandleiding](../MIGRATION.md).

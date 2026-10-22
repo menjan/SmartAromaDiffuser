@@ -1,8 +1,8 @@
 # Checklist: eerste GitHub-release v1.0.0
 
-**GitHub-repository:** https://github.com/mennojansen84/SmartAromaDiffuser — eigenaar en projectlinks zijn al ingevuld. Controleer vóór publiceren de bestandsstructuur en de daadwerkelijke werking in Home Assistant.
+**GitHub-repository:** https://github.com/menjan/SmartAromaDiffuser — eigenaar en projectlinks zijn al ingevuld. Controleer vóór publiceren de bestandsstructuur en de daadwerkelijke werking in Home Assistant.
 
-- [x] GitHub-gebruikersnaam `mennojansen84` is ingevuld in manifest en installatie-URL’s.
+- [x] GitHub-gebruikersnaam `menjan` is ingevuld in manifest en installatie-URL’s.
 - [x] Publieke repository met exact de naam `SmartAromaDiffuser` is aangemaakt. Controleer in GitHub of Issues aanstaan.
 - [ ] Bestanden staan in de **root** van de repository, met `custom_components/smartaromadiffuser/manifest.json` in die exacte structuur (geen extra maplaag).
 - [ ] Overbodige `.DS_Store`, `__MACOSX`, privélogs, persoonlijke BLE-adressen en secrets zijn niet geüpload.

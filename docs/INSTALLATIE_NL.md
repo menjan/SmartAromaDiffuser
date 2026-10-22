@@ -17,7 +17,7 @@ Deze handleiding is voor gebruikers van een compatibele A326-geurverspreider. Je
 
 1. Installeer HACS als je dit nog niet hebt, volgens de [officiële HACS-instructies](https://hacs.xyz/).
 2. Open **HACS → het menu (⋮) → Aangepaste repositories / Custom repositories**.
-3. Vul de openbare GitHub-repository in: `https://github.com/mennojansen84/SmartAromaDiffuser`.
+3. Vul de openbare GitHub-repository in: `https://github.com/menjan/SmartAromaDiffuser`.
 4. Kies als type **Integratie / Integration** en bevestig.
 5. Zoek **SmartAromaDiffuser**, installeer de gewenste release en **herstart Home Assistant**.
 

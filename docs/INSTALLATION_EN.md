@@ -15,7 +15,7 @@ This integration controls a compatible A326-family diffuser locally by Bluetooth
 **HACS custom repository (2026.10 or older)**
 
 1. Install HACS if necessary using [its official instructions](https://hacs.xyz/).
-2. Open **HACS → Custom repositories**. Enter `https://github.com/mennojansen84/SmartAromaDiffuser` and choose **Integration**.
+2. Open **HACS → Custom repositories**. Enter `https://github.com/menjan/SmartAromaDiffuser` and choose **Integration**.
 3. Find and install **SmartAromaDiffuser**. Restart Home Assistant.
 
 **Manual alternative:** download the repository ZIP, extract it and copy the `custom_components/smartaromadiffuser` folder to `/config/custom_components/smartaromadiffuser` in Home Assistant. Restart.

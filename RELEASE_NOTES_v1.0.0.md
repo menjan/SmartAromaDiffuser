@@ -8,6 +8,6 @@ First public release for a tested A326-family Bluetooth aroma diffuser in Home A
 - Dutch and English installation instructions, plus troubleshooting and optional ESPHome active Bluetooth proxy guidance
 - Removed device-specific MAC address from the configuration form (enter your own)
 
-**Important:** this release uses the new `smartaromadiffuser` domain. Existing users of older domain names must follow [migration guide](https://github.com/mennojansen84/SmartAromaDiffuser/blob/main/MIGRATION.md), back up Home Assistant and check entity IDs and automation references.
+**Important:** this release uses the new `smartaromadiffuser` domain. Existing users of older domain names must follow [migration guide](https://github.com/menjan/SmartAromaDiffuser/blob/main/MIGRATION.md), back up Home Assistant and check entity IDs and automation references.
 
 The BLE protocol command implementation is unchanged from the previously tested v0.11 core. Verify on your own hardware before depending on automation.
